@@ -45,7 +45,7 @@ int main()
             turnaround[smallest] = end - a[smallest];
         }
     }
-    cout<<"\n\nProcess"<<"\t\t"<< "Burst-time"<<"\t"<<"Arrival time" <<"\t"<<"Waiting time" <<"\t"<<"Turnaround-time"<<endl;
+    cout<<"\n\nProcess"<<"\t\t"<< "Burst time"<<"\t"<<"Arrival time" <<"\t"<<"Waiting time" <<"\t"<<"Turnaround-time"<<endl;
     for(i=0; i<n; i++)
     {
         cout<<"p"<<i+1<<"\t\t\t\t"<<x[i]<<"\t\t\t\t"<<a[i]<<"\t\t\t\t"<<waiting[i]<<"\t\t\t\t"<<turnaround[i]<<endl;
